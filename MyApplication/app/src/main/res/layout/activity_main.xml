@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <!--여기 등록된 기기 표시-->
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_weight="1">
+       <LinearLayout android:id="@+id/showDevice_layout"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+       </LinearLayout>
+   </ScrollView>
+
+    <Button
+        android:id="@+id/register_device_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonClicked"
+        android:text="기기 등록"
+        android:textSize="30sp" />
+</LinearLayout>
