@@ -1,0 +1,5 @@
+파일을 수정/추가/삭제 했을 땐
+항상 fetch 먼저 누르고 
+changes 가서 summary라고 된 곳에 제목
+아래 칸에 무엇을 수정했는지 쓰고
+commit to master 버튼을 눌러주세요
