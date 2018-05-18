@@ -26,6 +26,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="onButtonClicked"
-        android:text="기기 등록"
+        android:text="기기 등록ㅎㅇㅎㅇ"
         android:textSize="30sp" />
 </LinearLayout>
