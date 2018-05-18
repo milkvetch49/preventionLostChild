@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="status_safe">안전</string>
-    <stirng name="status_warning">위험</stirng>
+    <string name="status_warning">위험</string>
     <string name="status_notRecognizing">인식 안 됨</string>
 </resources>
